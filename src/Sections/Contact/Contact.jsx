@@ -11,6 +11,7 @@ function Contact() {
       }, (error) => {
         alert('Failed to send message, please try again later.');
       });
+      e.target.reset()
   }
 
   return (
