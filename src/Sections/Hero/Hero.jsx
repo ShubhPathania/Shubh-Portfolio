@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/Design uten navn.png';
+import heroImg from '../../assets/hero image 2.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -47,7 +47,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for extracting insights from the data.
+          With a passion for transforming data into insights that drive strategic decisions and outcomes.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

@@ -28,10 +28,10 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Numpy" />
-        <SkillList src={checkMarkIcon} skill="Pandas," />
-        <SkillList src={checkMarkIcon} skill="Matplotlib," />
-        <SkillList src={checkMarkIcon} skill="Seaborn," />
-        <SkillList src={checkMarkIcon} skill="Plotly," />
+        <SkillList src={checkMarkIcon} skill="Pandas" />
+        <SkillList src={checkMarkIcon} skill="Matplotlib" />
+        <SkillList src={checkMarkIcon} skill="Seaborn" />
+        <SkillList src={checkMarkIcon} skill="Plotly" />
       </div>
 
     </section>
