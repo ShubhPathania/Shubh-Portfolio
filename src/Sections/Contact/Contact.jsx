@@ -5,7 +5,7 @@ function Contact() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_p6oy4fp', e.target, 'BxUKNU-hoAJKuUnfR')
+    emailjs.sendForm('service_89f2qja', 'template_p6oy4fp', e.target, 'BxUKNU-hoAJKuUnfR')
       .then((result) => {
         alert('Message sent successfully!');
       }, (error) => {

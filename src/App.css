@@ -43,7 +43,7 @@ p {
 h2,
 h3,
 p {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', 'Fragment Mono', monospace;
 }
 
 h1,
@@ -57,7 +57,7 @@ h3 {
 }
 
 h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', 'Rubik Mono One', sans-serif;
   font-size: 32px;
 }
 
