@@ -58,7 +58,7 @@ h3 {text-align: center;
 
 h1 {
   font-family: 'Rubik', 'Rubik Mono One', sans-serif;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 p {
@@ -81,14 +81,24 @@ p {
   h1 {
     font-size: 38px;
   }
-  h2 {
+  h3 {
     margin: 0 auto;
     padding: 10px 20px;
   }
   
   @media (max-width: 800px) {
-    h2 {
+    h3 {
       padding: 5px 10px;
+    }
+  }
+
+  h2 {
+    font-size: 20px; /* Default for larger screens */
+  }
+  
+  @media (max-width: 800px) {
+    h2 {
+      font-size: 18px; /* Smaller font size for mobile */
     }
   }
   
