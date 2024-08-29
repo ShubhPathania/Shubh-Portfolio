@@ -53,10 +53,7 @@ h2 {
 
 h2,
 h3 {text-align: center;
-    white-space: nowrap; /* Prevents text wrapping */
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 20px;
+  font-size: 20px;
 }
 
 h1 {
@@ -96,13 +93,13 @@ p {
     }
   }
 
-  h2 {
+  h3 {text-align: center;
     font-size: 20px; /* Default for larger screens */
   }
   
   @media (max-width: 800px) {
-    h2 {
-      font-size: 18px; /* Smaller font size for mobile */
+    h3 {text-align: center;
+      font-size: 16px; /* Smaller font size for mobile */
     }
   }
   
