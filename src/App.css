@@ -81,6 +81,17 @@ p {
   h1 {
     font-size: 38px;
   }
+  h2 {
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  @media (max-width: 800px) {
+    h2 {
+      padding: 5px 10px;
+    }
+  }
+  
   h2,
   h3 {
     font-size: 24px;
