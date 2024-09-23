@@ -6,6 +6,7 @@ import customer from '../../assets/customer.png';
 import sales from '../../assets/sales.png';
 import zomato from '../../assets/zomato.png';
 import bike from '../../assets/bike.png';
+import olympics from '../../assets/Olympics 2024.png';
 import ProjectCard from '../../Common/ProjectCard';
 
 function Projects() {
@@ -48,6 +49,12 @@ function Projects() {
           link="https://github.com/ShubhPathania/Bike-Sharing-Demand-Prediction"
           h3="Bike Sharing Demand Prediction"
           p="Supervised Learning Project"
+        />
+        <ProjectCard
+          src={olympics}
+          link="https://github.com/ShubhPathania/Olympics-2024-Analysis-PowerBI"
+          h3="Paris Olympics 2024"
+          p="Power BI Project"
         />
       </div>
     </section>
